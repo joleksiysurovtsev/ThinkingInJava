@@ -25,7 +25,7 @@ public class LabeledFor {
                 }
                 if (i == 8) {
                     System.out.println("break outer");
-                    break outer;
+                    break outer;                            //полностью покинули циклы
                 }
                 for (int k = 0; k < 5; k++) {                //4. прыгаем в этот цикл увеличиваем к до 3  //6.повторяемся
                     if (k == 3) {                            //выводим на экран сообщение
