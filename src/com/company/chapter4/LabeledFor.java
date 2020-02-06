@@ -30,7 +30,7 @@ public class LabeledFor {
                 for (int k = 0; k < 5; k++) {                //4. прыгаем в этот цикл увеличиваем к до 3  //6.повторяемся
                     if (k == 3) {                            //выводим на экран сообщение
                         System.out.println("continue inner");
-                        continue inner;                      //выпрыгиваем на иннер
+                        continue inner;                       //выпрыгиваем на иннер
                     }
                 }
             }
