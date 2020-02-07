@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class Fibonachi {
     public void f(int z) {
-        //Scanner in = new Scanner(System.in);
 
         int x = 1;
         int y = 1;
